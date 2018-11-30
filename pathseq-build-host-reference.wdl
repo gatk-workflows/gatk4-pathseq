@@ -12,7 +12,7 @@
 ###############################################################
 ##
 ## Input requirements :
-## - FASTA file containing host sequences from NCBI RefSeq
+## - FASTA file containing host sequences
 ##
 ## Output:
 ## - FASTA index and dictionary files
