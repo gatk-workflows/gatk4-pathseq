@@ -5,8 +5,8 @@ a pipeline in the Genome Analysis Toolkit (GATK) for detecting microbial organis
 in short-read deep sequencing samples taken from a host organism.
 
 Addtional Resources:  
-[How to Run the Pathseq pipeline (manually)](https://software.broadinstitute.org/gatk/documentation/article?id=10913)
-[GATK PathSeq: a customizable computational tool for the discovery and identification of microbial sequences in libraries from eukaryotic hosts](https://doi.org/10.1093/bioinformatics/bty501)
+- [How to Run the Pathseq pipeline (manually)](https://software.broadinstitute.org/gatk/documentation/article?id=10913)
+- [GATK PathSeq: a customizable computational tool for the discovery and identification of microbial sequences in libraries from eukaryotic hosts](https://doi.org/10.1093/bioinformatics/bty501)
 
 ## pathseq-pipeline
 Runs the PathSeq pipeline
@@ -56,7 +56,7 @@ Builds a host reference for use with PathSeq
 - For help running workflows on the Google Cloud Platform or locally please
 view the following tutorial [(How to) Execute Workflows from the gatk-workflows Git Organization](https://software.broadinstitute.org/gatk/documentation/article?id=12521).
 - The following material is made available to you by the GATK Team. Please post any questions or concerns to one of our forum sites : [GATK](https://gatkforums.broadinstitute.org/gatk/categories/ask-the-team/) , [FireCloud](https://gatkforums.broadinstitute.org/firecloud/categories/ask-the-firecloud-team) , [WDL/Cromwell](https://gatkforums.broadinstitute.org/wdl/categories/ask-the-wdl-team).
-- Please visit the [User Guide](https://software.broadinstitute.org/gatk/documentation/) site for furthr documentation on our workflows and tools.
+- Please visit the [User Guide](https://software.broadinstitute.org/gatk/documentation/) site for further documentation on our workflows and tools.
 
 ### LICENSING 
 #### Copyright Broad Institute, 2018 | BSD-3
