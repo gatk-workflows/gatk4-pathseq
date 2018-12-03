@@ -4,7 +4,7 @@ This repo contains workflows for computational pathogen discovery using PathSeq,
 a pipeline in the Genome Analysis Toolkit (GATK) for detecting microbial organisms 
 in short-read deep sequencing samples taken from a host organism.
 
-Addtional Resources:  
+Additional Resources:  
 - [How to Run the Pathseq pipeline (manually)](https://software.broadinstitute.org/gatk/documentation/article?id=10913)
 - [GATK PathSeq: a customizable computational tool for the discovery and identification of microbial sequences in libraries from eukaryotic hosts](https://doi.org/10.1093/bioinformatics/bty501)
 
