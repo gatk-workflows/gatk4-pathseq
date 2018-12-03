@@ -1,0 +1,23 @@
+{
+  "##_COMMENT1": "References and Resources",
+  "PathSeqBuildMicrobeReferenceWorkflow.microbe_fasta": "gs://gatk-best-practices/pathseq/resources/meats.fa",
+  "#PathSeqBuildMicrobeReferenceWorkflow.BuildPathSeqTaxonomyFile.catalog_file": "String (optional, default = \"catalog.gz\")",
+  "#PathSeqBuildMicrobeReferenceWorkflow.BuildPathSeqTaxonomyFile.taxdump_file": "String (optional, default = \"taxdump.tar.gz\")",
+
+  "##_COMMENT2": "Workflow Options",
+  "#PathSeqBuildMicrobeReferenceWorkflow.min_non_virus_contig_length": "Int? (optional)",
+
+  "##_COMMENT3": "Docker",
+  "PathSeqBuildMicrobeReferenceWorkflow.gatk_docker": "broadinstitute/gatk:4.0.11.0",
+  "#PathSeqBuildMicrobeReferenceWorkflow.gatk4_jar_override": "File? (optional)",
+
+  "##_COMMENT4": "Runtime Parameter",
+  "#PathSeqBuildMicrobeReferenceWorkflow.index_fasta_mem_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.index_fasta_disk_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.bwa_mem_index_mem_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.bwa_mem_index_disk_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.build_taxonomy_mem_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.build_taxonomy_disk_gb": "Int? (optional)",
+  "#PathSeqBuildMicrobeReferenceWorkflow.preemptible_attempts": "Int? (optional)"
+}
+

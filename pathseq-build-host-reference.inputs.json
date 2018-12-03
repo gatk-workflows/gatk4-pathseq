@@ -1,0 +1,18 @@
+{
+  "##_COMMENT1": "References and Resources", 
+  "PathSeqBuildHostReferenceWorkflow.host_fasta": "gs://broad-references/hg38/v0/Homo_sapiens_assembly38.fasta",
+ 
+  "##_COMMENT2": "Docker",
+  "PathSeqBuildHostReferenceWorkflow.gatk_docker": "broadinstitute/gatk:4.0.11.0",
+  "#PathSeqBuildHostReferenceWorkflow.gatk4_jar_override": "File? (optional)",
+
+  "##_COMMENT3": "Runtime Parameter",
+  "#PathSeqBuildHostReferenceWorkflow.BuildPathSeqKmerFile.mem_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.BuildPathSeqKmerFile.disk_space_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.IndexFasta.mem_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.IndexFasta.disk_space_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.BuildBwaMemIndexImage.mem_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.BuildBwaMemIndexImage.disk_space_gb": "Int? (optional)",
+  "#PathSeqBuildHostReferenceWorkflow.preemptible_attempts": "Int? (optional)"
+}
+
