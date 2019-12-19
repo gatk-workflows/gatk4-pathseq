@@ -1,6 +1,6 @@
 {
   "##_COMMENT1": "References and Resources", 
-  "PathSeqBuildHostReferenceWorkflow.host_fasta": "gs://broad-references/hg38/v0/Homo_sapiens_assembly38.fasta",
+  "PathSeqBuildHostReferenceWorkflow.host_fasta": "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta",
  
   "##_COMMENT2": "Docker",
   "PathSeqBuildHostReferenceWorkflow.gatk_docker": "broadinstitute/gatk:4.0.11.0",
